@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { defineProps, ref } from 'vue'
 
 defineProps<{ msg: string, code: string }>()
 
@@ -41,3 +41,7 @@ const count = ref(0)
   color: #888;
 }
 </style>
+
+function defineProps<T>() {
+  throw new Error('Function not implemented.')
+}
