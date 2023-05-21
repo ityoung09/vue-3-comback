@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, ref } from 'vue'
+import {defineProps, ref} from 'vue'
 
 defineProps<{ msg: string, code: string }>()
 
@@ -7,7 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>  
+  <h1>{{ msg }}</h1>
   <h1>{{ code }}</h1>
 
 
@@ -22,7 +22,7 @@ const count = ref(0)
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
+    >create-vue</a
     >, the official Vue + Vite starter
   </p>
   <p>
@@ -42,6 +42,7 @@ const count = ref(0)
 }
 </style>
 
-function defineProps<T>() {
-  throw new Error('Function not implemented.')
+function defineProps
+<T>() {
+throw new Error('Function not implemented.')
 }
