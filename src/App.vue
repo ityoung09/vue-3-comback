@@ -12,8 +12,8 @@ const message : number = 0
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <div>{{ message ? "true" : "false" }}</div>
-  <HelloWorld msg="Vite + Vue" code="hello world" />
+  <HelloWorld msg="Vite + Vue" code="hello world" /> 
+  <p> 测试20240115git版本 </p>
 </template>
 
 <style scoped>
